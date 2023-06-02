@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* display: flex; */
+  justify-content: center;
+  width: 594px;
+  margin: 0 auto;
+  box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+  border-radius: 16px 16px 16px 16px;
+}
+
+.main_text {
+  font-size: 58px;
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 33px;
+  font-family: "inter";
+}
+.ToDo {
+}
+.myContent {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  width: 594px;
+  height: 311px;
+  /* box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16); */
+  border-radius: 16px 16px 0 0;
+}
+
+.input {
+  margin: 24px;
+  height: 38px;
+  width: 356px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+.button {
+  height: 39px;
+  width: 166px;
+  /* left: 598px; */
+  /* top: 207px; */
+  border-radius: 4px;
+  /* padding: 10px 16px 10px 16px; */
+  background-color: black;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "inter";
+}
+
+.line {
+  width: 594px;
+  height: 1px;
+  background: #dee2e6;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  border-radius: 0px 0px 16px 16px;
+}
+.delete {
+  display: flex;
+  height: 75px;
+  width: 594px;
+  background: #f5f5f5;
+  border-radius: 0px 0px 16px 16px;
+  /* box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16); */
+}
+
+.delete_but {
+  cursor: pointer;
+  margin: 18px 201px 18px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px 10px 28px;
+  width: 214px;
+  height: 39px;
+  background: #6c757d;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #ffffff;
+  font-family: "inter";
+}
+
+.deleteAll_but {
+  cursor: pointer;
+  margin: 18px 24px 18px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px 10px 22px;
+  width: 131px;
+  height: 39px;
+  background: #dc3545;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #ffffff;
+  font-family: "inter";
+}
+
+.myLi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "inter";
+}
+
+.wrapper {
+  padding: 0 24px 0 24px;
+  justify-content: space-between;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.delAll_but {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.checkbox{
+  font-size: 50%;
+}
